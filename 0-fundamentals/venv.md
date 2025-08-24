@@ -17,3 +17,5 @@ For deactivation, simply use:
 ```
 deactivate
 ```
+
+You can create and use multiple virtual environments for different projects.
