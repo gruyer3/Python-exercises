@@ -13,8 +13,7 @@ print (disk_usage_percentage)
 server_name_upper = server_name.upper()
 #   - Include the number of CPU cores and amount of RAM.
 #   - Show the disk usage percentage rounded to one decimal place.
-summary = (f"{server_name_upper}: CPU_cores:{cpu_cores} Memory:{memory_gb} Disk_usage:{disk_usage_percentage:.2%}")
-print (summary)
 # Print a summary containing the server name in uppercase, the number of CPU cores, the memory, and the disk usage.
 # Use the .2% format specifier in an f-string to display the usage with two decimal places and a percent sign.
-
+summary = (f"{server_name_upper}: CPU_cores:{cpu_cores} Memory:{memory_gb} Disk_usage:{disk_usage_percentage:.2%}")
+print (summary)
