@@ -17,3 +17,4 @@ print (doubled_items_with_comprehension)
 servers = ["web", "db", "backend"]
 uppercase_servers = [server.upper() for server in servers]
 print (uppercase_servers)
+
